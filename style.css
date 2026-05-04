@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  border: 30px solid #9370DB;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #9370DB;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  color: #BA55D3;
+  margin-top: 0;
+}
+
+.lo {
+  width: 50%;
+  margin-left: auto;
+  color: #9370DB;
+  display: flex;
+  align-items: flex-start;
+  gap: 50vh;
+  flex-direction: row-reverse;
+}
+
+img {
+  width: 250px;
+  height: auto;
+}
+
+.cat-wrapper {
+  position: relative;
+  width: 200px;
+}
+
+.cat {
+  width: 100%;
+  display: block;
+  transition: opacity 0.5s ease;
+}
+
+.hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.cat-wrapper:hover .hover {
+  opacity: 1;
+}
+
+.cat-wrapper:hover .base {
+  opacity: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.lol {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+
+.loo, .looo, .loooo, .looooo, .loooooo, .looooooo, .loooooooo {
+  border: 3px solid #d9c4e6;        
+  border-radius: 20px;              
+  background: white;               
+  padding: 20px;                   
+  margin: 20px;                    
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+
+
+.loo:hover, .looo:hover, .loooo:hover, .looooo:hover, .loooooo:hover, .looooooo:hover, .loooooooo:hover {
+  transform: scale(1.02);          
+  border-color: #b77dd9;            
+}
+
+
+iframe {
+  width: 100%;
+  max-width: 705px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 15px;
+  display: block;
+  margin: 10px auto 0 auto;
+}
